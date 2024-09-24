@@ -1,3 +1,5 @@
+import LoginForm from "@/components/LoginForm";
+
 export default function Home() {
-  return <div className="text-5xl font-semibold">Hello World</div>;
+  return <LoginForm />;
 }
